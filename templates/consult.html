@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/css/registerstyle.css">
-    <script src="/static/js/registerapp.js"></script>
+    <link rel="stylesheet" href="/static/css/consultstyle.css">
+    <script src="/static/js/consultapp.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>Registro</h1>
-    <form action="/register_user" method ="post">
-    <label> ID </label> <input type="number" name = "id" > <br> <br>
-    <label> NOMBRE </label> <input type="text" name = "nombre" >  <br> <br>
-    <label> APELLIDO </label> <input type="text" name = "apellido"> <br> <br>
-    <label> NACIMIENTO </label> <input type="date" name = "nacimiento "> <br> <br>
-    <button> Register </button> 
-</form>
+    <h1>Consultar</h1> 
+    <div>
+        <label> ID </label> <input type="number" id = "id" > <br> <br>
+        <textarea id="txt.data">   </textarea> <br> <br>
+        <button onclick = "consult_user()"> Consultar </button> </button> 
+    </div>
 </body>
 </html>

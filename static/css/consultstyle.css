@@ -1,0 +1,12 @@
+h1, div{
+    color: cornflowerblue;
+ }
+ body{
+    background-color: darkblue;
+    text-align: center;
+ }
+ button{
+    background-color: indigo;
+    color: aquamarine;
+    font-size: 25px;
+ }
